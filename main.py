@@ -1,8 +1,6 @@
 import os
 from dotenv import load_dotenv
 from pydantic import BaseModel
-from langchain_openai import ChatOpenAI
-from langchain_anthropic import ChatAnthropic
 from langchain_google_genai import ChatGoogleGenerativeAI
 import google.genai as genai
 from langchain.agents import create_agent
